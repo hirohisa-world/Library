@@ -12,14 +12,13 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <span className="icon-Twitter_Social_Icon_Circle_White"></span>
-      <div className="test">
+      <div className="list">
         <ul className="menu">
             <li className="menu__single">
                 <a href="#" className="init-bottom">NODENS</a>
                 <ul className="menu__second-level">
                     <li><a href="/">VEGA</a></li>
-                    <li><a href="#">JOE</a></li>
+                    <li><a href="/joe">JOE</a></li>
                 </ul>
             </li>
         </ul>
@@ -27,8 +26,8 @@ const Header = ({ siteTitle }) => (
             <li className="menu__single">
                 <a href="#" className="init-bottom">C</a>
                 <ul className="menu__second-level">
-                    <li><a href="/">WORLD</a></li>
-                    <li><a href="#">CHARACTER</a></li>
+                    <li><a href="/c-follower">FOLLOWER</a></li>
+                    <li><a href="/c-works">WORKS</a></li>
                 </ul>
             </li>
         </ul>

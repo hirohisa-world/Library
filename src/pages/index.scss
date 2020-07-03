@@ -1,71 +1,6 @@
-.title{
-	text-align: center;
-
-	.neon {
-		margin: 10px;
-		display: inline-block;
-		color: #fff;
-		letter-spacing: .05em;
-		font-size: 28px;
-		padding: 10px;
-		border: 2px solid;
-		border-radius: 24px;
-		text-shadow: 0 1px 30px rgb(192, 25, 39), 0 0 12px #fff, 2px 5px 60px #cc1a46;
-	}
-	.neon > span {
-		-webkit-animation: blink 3s infinite alternate;
-		animation: blink 3s infinite alternate;
-	}
-	@-webkit-keyframes blink {
-		40% {
-			opacity: .85;
-		}
-		42% {
-			opacity: .4;
-		}
-		43% {
-			opacity: .85;
-		}
-		45% {
-			opacity: .4;
-		}
-		46% {
-			opacity: .85;
-		}
-	}
-	@keyframes blink {
-		40% {
-			opacity: .85;
-		}
-		42% {
-			opacity: .4;
-		}
-		43% {
-			opacity: .85;
-		}
-		45% {
-			opacity: .4;
-		}
-		46% {
-			opacity: .85;
-		}
-	}
-}
-
-.twitter-tweet{
-	margin: auto;
-}
-.timeline	{
-	display: flex;
-	justify-content: center;
-	background-color: #292f34;
-	width: 100%;
-}
-
 body {
 	background-color: #292f34;
 }
-
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -92,6 +27,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
