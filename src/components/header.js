@@ -17,8 +17,8 @@ const Header = ({ siteTitle }) => (
             <li className="menu__single">
                 <a href="#" className="init-bottom">NODENS</a>
                 <ul className="menu__second-level">
-                    <li><a href="/">VEGA</a></li>
-                    <li><a href="/joe">JOE</a></li>
+                    <li><Link to="/">VEGA</Link></li>
+                    <li><Link to="/joe">JOE</Link></li>
                 </ul>
             </li>
         </ul>
@@ -26,8 +26,8 @@ const Header = ({ siteTitle }) => (
             <li className="menu__single">
                 <a href="#" className="init-bottom">C</a>
                 <ul className="menu__second-level">
-                    <li><a href="/c-follower">FOLLOWER</a></li>
-                    <li><a href="/c-works">WORKS</a></li>
+                    <li><Link to="/c-follower">FOLLOWER</Link></li>
+                    <li><Link to="/c-works">WORKS</Link></li>
                 </ul>
             </li>
         </ul>
