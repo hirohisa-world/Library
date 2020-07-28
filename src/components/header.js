@@ -15,9 +15,18 @@ const Header = ({ siteTitle }) => (
       <div className="list">
         <ul className="menu">
             <li className="menu__single">
+                <Link to="/aster" className="init-bottom">HUDSON</Link>
+                <ul className="menu__second-level">
+                    <li><Link to="/">Aster</Link></li>
+                    <li><Link to="/smiley">Smiley</Link></li>
+                </ul>
+            </li>
+        </ul>
+        <ul className="menu">
+            <li className="menu__single">
                 <Link to="/" className="init-bottom">NODENS</Link>
                 <ul className="menu__second-level">
-                    <li><Link to="/">VEGA</Link></li>
+                    <li><Link to="/vega">VEGA</Link></li>
                     <li><Link to="/joe">JOE</Link></li>
                 </ul>
             </li>
@@ -28,14 +37,6 @@ const Header = ({ siteTitle }) => (
                 <ul className="menu__second-level">
                     <li><Link to="/c-follower">FOLLOWER</Link></li>
                     <li><Link to="/c-works">WORKS</Link></li>
-                </ul>
-            </li>
-        </ul>
-        <ul className="menu">
-            <li className="menu__single">
-                <Link to="/aster" className="init-bottom">HUDSON</Link>
-                <ul className="menu__second-level">
-                    <li><Link to="/aster">Aster</Link></li>
                 </ul>
             </li>
         </ul>

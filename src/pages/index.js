@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import TitleN from "../components/titleN"
+import TitleH from "../components/titleH"
 import Tweet from "../components/tweet"
 import Timeline from "../components/timeline"
 import SEO from "../components/seo"
@@ -10,9 +10,9 @@ import "./index.scss"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <TitleN />
-    <Tweet tweet={<blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">こちらの企画【<a href="https://twitter.com/H_NODENS_TL?ref_src=twsrc%5Etfw">@H_NODENS_TL</a>】に参加させていただきます！盗人兄弟です！関係等真っ白ですので是非遊んでください！<a href="https://twitter.com/hashtag/NODENS_CS?src=hash&amp;ref_src=twsrc%5Etfw">#NODENS_CS</a><a href="https://twitter.com/hashtag/NODENS_%E5%88%A9%E7%94%A8%E8%80%85?src=hash&amp;ref_src=twsrc%5Etfw">#NODENS_利用者</a> <a href="https://t.co/3MFsnPclFR">pic.twitter.com/3MFsnPclFR</a></p>&mdash; hirohisa (@hirohisasa) <a href="https://twitter.com/hirohisasa/status/1265216386831224832?ref_src=twsrc%5Etfw">May 26, 2020</a></blockquote>} />
-    <Timeline timeline={<a class="twitter-timeline" data-width="500" data-height="730" data-theme="dark" href="https://twitter.com/hirohisasa/timelines/1278733211095273475?ref_src=twsrc%5Etfw">VEGA - Curated tweets by hirohisasa</a>} />
+    <TitleH />
+    <Tweet tweet={<blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">こちらの企画【<a href="https://twitter.com/hudson_hotel?ref_src=twsrc%5Etfw">@hudson_hotel</a>】に参加させていただきます！同室の旧友がいますが、他は関係真っ白ですので是非仲良くしてください！<a href="https://twitter.com/hashtag/%E3%83%8F%E3%83%89%E3%82%BD%E3%83%B3_CS?src=hash&amp;ref_src=twsrc%5Etfw">#ハドソン_CS</a> <a href="https://twitter.com/hashtag/%E3%83%8F%E3%83%89%E3%82%BD%E3%83%B3_%E9%96%A2%E4%BF%82%E5%8B%9F%E9%9B%86?src=hash&amp;ref_src=twsrc%5Etfw">#ハドソン_関係募集</a> <a href="https://t.co/bko55H5BXK">pic.twitter.com/bko55H5BXK</a></p>&mdash; hirohisa (@hirohisasa) <a href="https://twitter.com/hirohisasa/status/1282967489689710594?ref_src=twsrc%5Etfw">July 14, 2020</a></blockquote>} />
+    <Timeline timeline={<a class="twitter-timeline" data-width="500" data-height="730" data-theme="dark" href="https://twitter.com/hirohisasa/timelines/1283231969849913345?ref_src=twsrc%5Etfw">ASTER - Curated tweets by hirohisasa</a>} />
   </Layout>
 )
 
