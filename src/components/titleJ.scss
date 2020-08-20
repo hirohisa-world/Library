@@ -1,0 +1,84 @@
+.title{
+  text-align: center;
+  position: relative;
+
+  #noise_box{
+    --noise_box_height:100px;
+    height:var(--noise_box_height);
+    font-size:60px;
+    color:#fff;
+    background:#000000;
+  }
+  
+  
+  .block{
+    overflow:hidden;
+    position:absolute;
+    left:0px;
+    width:100%;
+    height:100%;
+  }
+  .block>span{
+    display:inline-block;
+    position:absolute;
+    left:0px;
+    width:100%;
+    line-height:var(--noise_box_height);
+    text-align:center;
+  }
+  @keyframes noise_animation{
+    0%{left:0px;}
+    10%{left:0px;filter:none;}10.25%{left:30px;filter:hue-rotate(90deg) invert(70%);}10.5%{left:0px;filter:none;}
+    70%{left:0px;filter:none;}70.25%{left:-30px;filter:hue-rotate(270deg) invert(30%);}70.5%{left:0px;filter:none;}
+    100%{left:0px;}
+  }
+  
+  
+  .block:nth-child(1){
+    top:calc(var(--noise_box_height) * 0);
+    height:calc(var(--noise_box_height) * 0.3);
+  }
+  .block:nth-child(1)>span{
+    top:calc(var(--noise_box_height) * -0);
+    animation:noise_animation 11s linear alternate infinite;
+  }
+  
+  
+  .block:nth-child(2){
+    top:calc(var(--noise_box_height) * 0.3);
+    height:calc(var(--noise_box_height) * 0.1);
+  }
+  .block:nth-child(2)>span{
+    top:calc(var(--noise_box_height) * -0.3);
+    animation:noise_animation 10s linear infinite;
+  }
+  
+  
+  .block:nth-child(3){
+    top:calc(var(--noise_box_height) * 0.4);
+    height:calc(var(--noise_box_height) * 0.2);
+  }
+  .block:nth-child(3)>span{
+    top:calc(var(--noise_box_height) * -0.4);
+    animation:noise_animation 9s linear infinite;
+  }
+  
+  
+  .block:nth-child(4){
+    top:calc(var(--noise_box_height) * 0.6);
+    height:calc(var(--noise_box_height) * 0.1);
+  }
+  .block:nth-child(4)>span{
+    top:calc(var(--noise_box_height) * -0.6);
+    animation:noise_animation 11s linear reverse infinite;
+  }
+  
+  
+  .block:nth-child(5){
+    top:calc(var(--noise_box_height) * 0.7);
+    height:calc(var(--noise_box_height) * 0.3);
+  }
+  .block:nth-child(5)>span{
+    top:calc(var(--noise_box_height) * -0.7);
+  }
+}

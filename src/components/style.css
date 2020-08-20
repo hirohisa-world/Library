@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?rm7921');
-  src:  url('fonts/icomoon.eot?rm7921#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?rm7921') format('truetype'),
-    url('fonts/icomoon.woff?rm7921') format('woff'),
-    url('fonts/icomoon.svg?rm7921#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?jc50z2');
+  src:  url('fonts/icomoon.eot?jc50z2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jc50z2') format('truetype'),
+    url('fonts/icomoon.woff?jc50z2') format('woff'),
+    url('fonts/icomoon.svg?jc50z2#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-ninjan_title:before {
+  content: "\e902";
+  color: #fff;
+}
 .icon-h_icon:before {
   content: "\e900";
   color: #fff;
