@@ -6,6 +6,7 @@
   align-items: center;
   padding: 0 20px;
   background: #292f34;
+  color: #fff;
 }
 
 .logo {
@@ -97,7 +98,6 @@
 
 .drawer-item {
   max-width: 500px;
-  color: #fff;
   text-decoration: none;
   margin: auto;
   padding: 10px 0 10px;
@@ -111,7 +111,10 @@
   background-color: #072A24;
 }
 
-a:visited{
+a,
+a:visited,
+a:hover,
+a:active {
   color: inherit;
 }
 
