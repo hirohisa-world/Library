@@ -50,7 +50,7 @@ const Header = () => (
           <div className="border" />
           <div className="planTitle">● ORIGINAL</div>
           <li class="drawer-item">
-            <Link to="/c-follwer">C - FOLLOWER</Link>
+            <Link to="/c-follower">C - FOLLOWER</Link>
           </li>
           <li class="drawer-item">
             <Link to="/c-works">C - WORKS</Link>
